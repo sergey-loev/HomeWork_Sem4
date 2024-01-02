@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
 
-        Iterator iterator1 = myList1.descendingIterator();
+        Iterator<Integer> iterator1 = myList1.descendingIterator();
         while (iterator1.hasNext()){
             System.out.println(iterator1.next());
         }
@@ -47,7 +47,7 @@ public class Main {
 
         System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
 
-        Iterator iterator2 = myList2.descendingIterator();
+        Iterator<String> iterator2 = myList2.descendingIterator();
         while (iterator2.hasNext()){
             System.out.println(iterator2.next());
         }
